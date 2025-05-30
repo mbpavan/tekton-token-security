@@ -70,7 +70,7 @@ Scans `.yaml`, `.yml`, and `.go` for webhook definitions and fails if tokens app
 
 ---
 
-## 🏗 Usage in Tekton Repositories
+## Usage in Tekton Repositories
 
 To apply this script to a specific Tekton CD repository (e.g., `tektoncd/operator`):
 
@@ -98,7 +98,7 @@ To apply this script to a specific Tekton CD repository (e.g., `tektoncd/operato
 
 ---
 
-## ⚙️ Configuration
+##  Configuration
 
 * **Exclude directories**: `vendor`, `.git`, `docs`, `hack`, `test`, `testdata`
 * **Include only**: `*.go` (and for webhook checks, `*.yml` & `*.yaml`)
@@ -107,7 +107,7 @@ If you need to adjust these, edit the `EXCLUDES` and `INCLUDES` arrays at the to
 
 ---
 
-## 📋 Exit Codes
+## Exit Codes
 
 * `0` — All checks passed
 * `1` — One or more checks failed (details printed to console)
